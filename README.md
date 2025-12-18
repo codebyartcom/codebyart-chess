@@ -75,8 +75,11 @@ This project includes a GitHub Actions workflow for automatic deployment to GitH
 1. Go to your repository Settings > Pages
 2. Under "Build and deployment", select "GitHub Actions" as the source
 3. Push to the `main` branch to trigger automatic deployment
+4. Wait a few minutes for the deployment to complete
 
 The site will be available at: `https://yourusername.github.io/codebyart-chess/`
+
+**Important:** The `vite.config.ts` is configured with `base: '/codebyart-chess/'`. If you rename your repository, update this value to match your new repository name.
 
 ### Manual Deployment
 
