@@ -1,0 +1,5 @@
+{
+  "name": "CodeByArt Chess",
+  "description": "A fully responsive, offline-capable Chess application featuring a strong built-in chess engine. Includes move validation, history, and different difficulty levels.",
+  "requestFramePermissions": []
+}
